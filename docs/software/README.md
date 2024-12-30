@@ -174,7 +174,7 @@ const pool = mysql.createPool({
 
 module.exports = pool;
 ```
-###Server setup
+Server setup
 ```
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -201,7 +201,7 @@ app.listen(PORT, () => {
 });
 
 ```
-###Users routes
+Users routes
 ```
 const express = require('express');
 const UsersController = require('../controllers/UsersController');
@@ -233,7 +233,7 @@ router.delete('/:id', UsersController.delete);
 module.exports = router;
 
 ```
-###Users controller
+Users controller
 ```
 const pool = require('../db');
 
@@ -280,7 +280,7 @@ module.exports = {
 };
 
 ```
-###Attributes routes
+Attributes routes
 ```
 const express = require('express');
 const AttributesController = require('../controllers/AttributesController');
@@ -295,7 +295,7 @@ router.delete('/:id', AttributesController.delete);
 module.exports = router;
 
 ```
-###Attribute controller
+Attribute controller
 ```
 const pool = require('../db');
 
@@ -362,7 +362,7 @@ const AttributesController = {
 module.exports = AttributesController;
 
 ```
-###Permissions routes
+Permissions routes
 ```
 const express = require('express');
 const PermissionsController = require('../controllers/PermissionsController');
@@ -377,7 +377,7 @@ router.delete('/:id', PermissionsController.delete);
 module.exports = router;
 
 ```
-###Permissions controller
+Permissions controller
 ```
 const pool = require('../db');
 
@@ -444,7 +444,7 @@ const PermissionsController = {
 module.exports = PermissionsController;
 
 ```
-###User validation
+User validation
 ```
 module.exports = (user) => {
     const { password, username, email, role } = user;
