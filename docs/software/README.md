@@ -157,7 +157,7 @@ CREATE TABLE RemovedAdminData (
 
 ## RESTfull сервіс для управління даними
 
-###Config
+Config
 ```
 const mysql = require('mysql2/promise');
 
