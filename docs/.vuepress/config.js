@@ -15,8 +15,8 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/open_data_management_system/',
-  theme: 'cool',
+  base: 'db_lab6',
+  theme: 'vuepress-theme-cool',
   // dest: 'dist',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -76,7 +76,7 @@ module.exports = {
 
     lastUpdated: 'Останнє оновлення', // string | boolean
       // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'https://github.com/boldak/edu-db-cw',
+    repo: 'https://github.com/AndChu123/db_lab6',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Github',
